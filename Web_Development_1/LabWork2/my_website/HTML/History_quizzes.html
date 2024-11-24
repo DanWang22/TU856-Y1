@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-
+            ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/style.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+            <title>History Quiz</title>
+
+        </head>
+
+        
+
+    <body>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="Popular_quizzes.html">Popular</a>
+            <a href="Animal_quizzes.html">Animals</a>
+            <a href="History_quizzes.html">History</a>
+            <a href="Contactus.html">Contact-Us</a>
+        </nav>
+
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#">For school</a></li>
+              <li><a class="dropdown-item" href="#">Made this week</a></li>
+              <li><a class="dropdown-item" href="#">Personality</a></li>
+            </ul>
+          </div>
+
+        <button onclick="darkMode()" class = "darkmode">darkmode</button>
+        <button onclick="lightMode()" class = "lightmode">lightmode</button>   
+        <button onclick="redMode()" class = "btn2">redmode</button>
+
+        <h1>History Quiz Section</h1>
+        <hr>
+        <hr>
+        <h2>Name that emperor quiz</h2>
+        <img src="../Images/History quiz/juliuscaesar.jpg" alt="Image of Julius Caesar" width="400"
+        height="200">
+            <p>There have been many famous emperors across History.
+                How well do know them?</p>
+                <button type="button" class="btn1">Name that emperor quiz</button>
+                <div id = "emp">
+                </div>
+
+
+        <hr>
+        <h2>WW2 event dates quiz</h2>
+        <img src="../Images/History quiz/WW2museum.jpg" alt="Image of a ww2 museum" width="400"
+        height="200">
+            <p>A quiz to help you study world war 2 events and dates</p>
+            <button onclick="modifyColour()" class="btn1">WW2 event dates quiz</button>
+            <div id = "wwquiz">
+            </div>
+
+            
+        <hr>
+
+        <h2>1916 rising leaders quiz</h2>
+        <img src="../Images/History quiz/risingleadersposter.jpg" alt="poster of 1916 rising" width="400"
+        height="200">
+        <p>Can you name all the leaders from Ireland's Easter rising?</p>
+        <button type="button" class="btn1">1916 rising leaders quiz</button>
+
+        <footer>
+            <p>©2023 Created by Danion Wang</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="../Javascript/main.js"></script>
+    </body>
+
+    </html>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+header {
+  background-image: url('../Images/header-website.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(29, 65, 182);
+  text-align: center;
+  padding: 100px 0;
+}
+    
+        
+.navbar {
+    background-color: #333; /* Change this to your preferred color */
+    overflow: hidden;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff; /* Change this to your preferred text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+ h1 {
+font-family: 'PT Serif', serif;
+ }        
+
+ img {
+    transition: transform 0.3s ease-in-out;
+    }
+    img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #888;
+    }
+
+    footer {
+        background-color: #333; /* Change to your preferred color */
+        color: #fff; /* Change to your preferred text color */
+        text-align: center;
+        padding: 10px;
+        }
+
+        .btn1{background-color: rgb(47, 0, 255); color:white}
+        .btn2{background-color: rgb(255, 34, 0); color:rgb(0, 255, 221)}
+
+    .darkmode {
+        background-color: black;
+        color: white;
+        }
+
+    .lightmode {
+        background-color: white;
+        color: black;
+    }
+
+    .redmode {
+        background-color: rgb(178, 46, 46);
+        color: rgb(0, 255, 221);
+    }
+
+    
+    
